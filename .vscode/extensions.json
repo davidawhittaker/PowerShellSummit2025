@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+                "eamodio.gitlens",
+                "ms-vscode.powershell",
+                "ybaumes.highlight-trailing-white-spaces"
+	]
+}
