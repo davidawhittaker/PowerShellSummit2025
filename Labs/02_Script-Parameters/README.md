@@ -7,7 +7,7 @@ The [02_Split-Shakespeare.ps1](02_Split-Shakespeare.ps1) script functions exactl
 # Exercise 1 - Create parameter block
 At the top of the script, we've created a couple variables named `$FilePath` and `$OutputPath`. We'll be replacing these variables with parameters, so we can either comment the lines out by placing a hash mark (`#`) at the beginning of the line, or we can simply delete them.
 
-Let's insert a [Parameter Block](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.4) after `line 1` of our script. The simplest way to create a parameter block is below.
+Let's insert a [Parameter Block](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.5) after `line 1` of our script. The simplest way to create a parameter block is below.
 
 ```powershell
 param
@@ -55,7 +55,7 @@ $ErrorActionPreference = 'Stop'
 
 This can work in very simple scripts, but in many cases could still lead to a large portion of the script running before an error is encountered, and it's generally not recommended to use this approach for variable validation.
 
-This approach is generally more useful for creating predictable behavior in `try/catch` blocks, but that falls outside the scope of this exercise. You can read more about PowerShell preference variables [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.4).
+This approach is generally more useful for creating predictable behavior in `try/catch` blocks, but that falls outside the scope of this exercise. You can read more about PowerShell preference variables [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.5).
 
 ## Parameter Attributes
 ### Mandatory Attribute
@@ -173,4 +173,4 @@ Our script is set to automatically validate that `Shakespeare.txt` exists inside
 
 Now we've supplied our script new input and output paths for this run, but our defaults remain in place.
 
-The examples in this exercise are far from an exhaustive list of what's possible; you can read more about parameters and their attributes [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.4) and [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_argument_completion?view=powershell-7.4).
+The examples in this exercise are far from an exhaustive list of what's possible; you can read more about parameters and their attributes [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced_parameters?view=powershell-7.5) and [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_argument_completion?view=powershell-7.5).
