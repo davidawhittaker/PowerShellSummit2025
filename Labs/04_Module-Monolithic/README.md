@@ -66,7 +66,7 @@ Now we can use the `Import-Module` cmdlet to bring the function into our session
 Import-Module .\04_Split-Shakespeare.psm1
 ```
 
-Even though our `$Fruit` variable is `$Oranges` inside the execution of the module file, we'll see from our PowerShell session it's retained it's original value of `Apples`. You probably also noticed that this time we didn't get any feedback to the console; this is because the default output stream is suppressed during module import. So let's change the first few lines to get some output.
+Even though our `$Fruit` variable has a value of `$Oranges` inside the execution of the module file, we'll see from our PowerShell session it's retained it's original value of `Apples`. You probably also noticed that this time we didn't get any feedback to the console; this is because the default output stream is suppressed during module import. So let's change the first few lines to get some output.
 
 Remove the first two lines from the script and replace them with the code below.
 ```powershell
