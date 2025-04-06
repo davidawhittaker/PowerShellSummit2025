@@ -82,10 +82,10 @@ In terms of metadata, the following is required in order to publish a module:
 - A URI to the license terms of the module, either as part of the PrivateData section of the manifest, or in the LicenseUri parameter of the Publish-Module cmdlet.
 
 If you're still having issues publishing, there are a wealth of resources available to help. Here's a few places to start:
-https://learn.microsoft.com/en-us/powershell/gallery/faqs?view=powershellget-3.x
-https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x
-https://learn.microsoft.com/en-us/powershell/gallery/powershellget/update-powershell-51?view=powershellget-3.x
-https://learn.microsoft.com/en-us/powershell/gallery/how-to/publishing-packages/publishing-a-package?view=powershellget-3.x
+[https://learn.microsoft.com/en-us/powershell/gallery/faqs?view=powershellget-3.x](https://learn.microsoft.com/en-us/powershell/gallery/faqs?view=powershellget-3.x)
+[https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x](https://learn.microsoft.com/en-us/powershell/gallery/concepts/publishing-guidelines?view=powershellget-3.x)
+[https://learn.microsoft.com/en-us/powershell/gallery/powershellget/update-powershell-51?view=powershellget-3.x](https://learn.microsoft.com/en-us/powershell/gallery/powershellget/update-powershell-51?view=powershellget-3.x)
+[https://learn.microsoft.com/en-us/powershell/gallery/how-to/publishing-packages/publishing-a-package?view=powershellget-3.x](https://learn.microsoft.com/en-us/powershell/gallery/how-to/publishing-packages/publishing-a-package?view=powershellget-3.x)
 
 
 Happy coding!
